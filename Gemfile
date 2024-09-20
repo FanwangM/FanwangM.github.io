@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    gem 'nokogiri'
+    gem 'rack', '~> 2.2.4'
+    gem 'rspec'
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
